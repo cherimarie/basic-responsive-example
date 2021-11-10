@@ -2,11 +2,11 @@ img { max-width: 100%; }
 
 img.banner { width: 90rem; height: auto; }
 
-/*Style layout with flexbox
-container { display: flex; justify-content: space-between; }
-aside { width: 25%; }
-main { width: 70%; }
-*/
+/*Style layout with flexbox*/
+/*.container { display: flex; justify-content: space-between; }
+aside { width: 25%; border:  2px solid blue;}
+main { width:70%; border:  2px solid green;}*/
+
 
 /*Style layout with grid*/
 .container {
@@ -14,11 +14,11 @@ main { width: 70%; }
   grid-template-columns: 1fr;
 }
 
+/*Media query to change layout at larger viewport widths*/
 @media (min-width:  50rem){
     .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
   }
 }
-
 
