@@ -1,13 +1,14 @@
 img { max-width: 100%; }
 
-img.banner { width: 1500px; height: auto; }
+img.banner { width: 90rem; height: auto; }
 
-/*Style with flexbox
+/*Style layout with flexbox
 container { display: flex; justify-content: space-between; }
 aside { width: 25%; }
 main { width: 70%; }
 */
 
+/*Style layout with grid*/
 .container {
   display: grid;
   grid-template-columns: 1fr;
