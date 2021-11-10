@@ -1,0 +1,23 @@
+img { max-width: 100%; }
+
+img.banner { width: 1500px; height: auto; }
+
+/*Style with flexbox
+container { display: flex; justify-content: space-between; }
+aside { width: 25%; }
+main { width: 70%; }
+*/
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width:  50rem){
+    .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+
